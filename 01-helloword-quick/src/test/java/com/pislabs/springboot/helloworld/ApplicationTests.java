@@ -1,4 +1,4 @@
-package com.pislabs.springboot.com_pislabs_springboot;
+package com.pislabs.springboot.helloworld;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

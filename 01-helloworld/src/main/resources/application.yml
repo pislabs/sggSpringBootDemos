@@ -1,0 +1,12 @@
+person:
+  lastName: rayl${random.uuid}
+  age: ${random.int}
+  boss: false
+  birth: 2020/5/20
+  maps: { k1: v1, k2: v2 }
+  list:
+    - it1
+    - it2
+  dog:
+    name: ${person.hello:x}_dog
+    age: ${person.age}

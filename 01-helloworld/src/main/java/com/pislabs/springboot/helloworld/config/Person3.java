@@ -1,10 +1,10 @@
 package com.pislabs.springboot.helloworld.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
-import org.springframework.validation.annotation.Validated;
 
-import javax.validation.constraints.Email;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -15,18 +15,15 @@ import java.util.Map;
  * @date 2025/6/7 03:13
  */
 @Component
-@ConfigurationProperties(prefix = "person")
-@Validated  // JS303校验
-public class Person {
-//    @Email
+@PropertySource(value = {"classpath:person.properties"})
+@ConfigurationProperties(prefix = "person3")
+public class Person3 {
     private String lastName;
     private Integer age;
     private Boolean boss;
     private Date birth;
 
-    @Email
-    private String email;
-
+//    @Value("person.maps") // 不支持
     private Map<String, Object> maps;
     private List<Object> lists;
     private Dog dog;

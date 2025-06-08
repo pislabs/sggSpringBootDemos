@@ -1,5 +1,6 @@
 package com.pislabs.springboot.helloworld.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
@@ -13,13 +14,16 @@ import java.util.Map;
  * @date 2025/6/7 03:13
  */
 @Component
-@ConfigurationProperties(prefix = "person")
-public class Person {
+public class Person2 {
+    @Value("${person.lastName}")
     private String lastName;
+    @Value("#{11*2}")
     private Integer age;
+    @Value("true")
     private Boolean boss;
     private Date birth;
 
+//    @Value("person.maps") // 不支持
     private Map<String, Object> maps;
     private List<Object> lists;
     private Dog dog;
