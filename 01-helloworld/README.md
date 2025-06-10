@@ -21,3 +21,11 @@ SpringBoot将所有的功能场景都抽取出来，做成一个个starters（�
 想要用什么功能就导入什么场景的启动器。
 
 
+## 指定环境
+```bash
+# 命令行参数
+java -jar 01-helloword-0.0.1-SNAPSHOT.jar --spring.profiles.active=dev
+```
+
+## 虚拟机参数
+-Dspring.profiles.active=dev
