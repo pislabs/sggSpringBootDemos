@@ -10,6 +10,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sp-config-quick" />
+        <module name="sp-logging" />
         <module name="sp-config" />
       </profile>
     </annotationProcessing>

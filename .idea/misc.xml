@@ -9,6 +9,8 @@
         <option value="$PROJECT_DIR$/01-helloword-quick/pom.xml" />
         <option value="$PROJECT_DIR$/01-config/pom.xml" />
         <option value="$PROJECT_DIR$/01-config-quick/pom.xml" />
+        <option value="$PROJECT_DIR$/log/pom.xml" />
+        <option value="$PROJECT_DIR$/02-logging/pom.xml" />
       </list>
     </option>
   </component>
