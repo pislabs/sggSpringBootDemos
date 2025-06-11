@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SonarLintProjectSettings">
+    <option name="moduleMapping">
+      <map>
+        <entry key="sp-config" value="01-helloworld" />
+        <entry key="sp-config-quick" value="01-helloword-quick" />
+      </map>
+    </option>
+  </component>
+</project>

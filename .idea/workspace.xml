@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-helloworld/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-helloworld/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-config-quick/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/01-config-quick/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-config-quick/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/01-config-quick/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/rayl/CodeRepos/pislabs/springBootDemos/sggSpringBootDemos/01-helloworld/src/main/resources",
+    "last_opened_file_path": "/Users/rayl/CodeRepos/pislabs/springBootDemos/sggSpringBootDemos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,25 +72,29 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4827586",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "e4c14d79f99874214fc93524773c41b2",
+    "spring.configuration.checksum": "35130b625541fe46ac133555f8eb694c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/01-helloword-quick/src/main/resources" />
       <recent name="$PROJECT_DIR$/01-helloworld/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/01-helloword-quick" />
+      <recent name="$PROJECT_DIR$/01-helloword-quick/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pislabs.springboot.helloworld.config" />
       <recent name="com.pislabs.springboot.helloworld.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.ConfigQApplication">
     <configuration name="SprintBootConfigTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-helloworld" />
+      <module name="sp-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
@@ -103,24 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SprintBootConfigTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-helloworld" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pislabs.springboot.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.pislabs.springboot.helloworld.SprintBootConfigTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SprintBootConfigTests.testAutoConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-helloworld" />
+      <module name="sp-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
@@ -136,7 +125,7 @@
       </method>
     </configuration>
     <configuration name="SprintBootConfigTests.testHelloService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="01-helloworld" />
+      <module name="sp-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
@@ -151,17 +140,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="01-helloworld" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.helloworld.Application" />
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sp-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.helloworld.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="01-helloword-quick" />
-      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=prod" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.helloworld.Application" />
+    <configuration name="ConfigQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sp-config-quick" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.helloworld.ConfigQApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
@@ -174,19 +162,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.SprintBootConfigTests" />
-      <item itemvalue="JUnit.SprintBootConfigTests.contextLoads" />
       <item itemvalue="JUnit.SprintBootConfigTests.testAutoConfig" />
       <item itemvalue="JUnit.SprintBootConfigTests.testHelloService" />
-      <item itemvalue="Spring Boot.Application (1)" />
-      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
+      <item itemvalue="Spring Boot.ConfigQApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="Spring Boot.ConfigQApplication" />
+        <item itemvalue="JUnit.SprintBootConfigTests.testHelloService" />
         <item itemvalue="JUnit.SprintBootConfigTests.testAutoConfig" />
         <item itemvalue="JUnit.SprintBootConfigTests" />
-        <item itemvalue="JUnit.SprintBootConfigTests.testHelloService" />
-        <item itemvalue="JUnit.SprintBootConfigTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +191,13 @@
       <workItem from="1749283601501" duration="2693000" />
       <workItem from="1749509893366" duration="525000" />
       <workItem from="1749595237918" duration="947000" />
+      <workItem from="1749678928003" duration="89000" />
+      <workItem from="1749679019850" duration="125000" />
+      <workItem from="1749679160610" duration="135000" />
+      <workItem from="1749679298486" duration="101000" />
+      <workItem from="1749679402485" duration="48000" />
+      <workItem from="1749679462764" duration="676000" />
+      <workItem from="1749680156787" duration="994000" />
     </task>
     <servers />
   </component>

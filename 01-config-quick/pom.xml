@@ -3,16 +3,14 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.pislabs.springboot</groupId>
-    <artifactId>01-helloword-quick</artifactId>
+    <artifactId>sp-config-quick</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>01-helloword-quick</name>
-    <description>01-helloword-quick</description>
 
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <spring-boot.version>2.3.12.RELEASE</spring-boot.version>
+        <spring-boot.version>2.1.3.RELEASE</spring-boot.version>
     </properties>
 
     <dependencies>
@@ -62,7 +60,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.pislabs.springboot.helloworld.Application</mainClass>
+                    <mainClass>com.pislabs.springboot.helloworld.ConfigApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
