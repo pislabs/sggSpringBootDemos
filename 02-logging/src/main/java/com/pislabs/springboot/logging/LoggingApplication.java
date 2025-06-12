@@ -1,5 +1,8 @@
 package com.pislabs.springboot.logging;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  * @author rayl
  * @description:
@@ -8,6 +11,6 @@ package com.pislabs.springboot.logging;
 @SpringBootApplication
 public class LoggingApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ConfigQApplication.class, args);
+        SpringApplication.run(LoggingApplication.class, args);
     }
 }
