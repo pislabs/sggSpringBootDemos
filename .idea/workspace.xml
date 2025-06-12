@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="" />
+    <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,9 +95,9 @@
       <recent name="com.pislabs.springboot.helloworld.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoggingApplicationTest.contextLoads">
+  <component name="RunManager" selected="Spring Boot.WebRestfuleCrudApplication">
     <configuration name="LoggingApplicationTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sp-logging" />
+      <module name="logging" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pislabs.springboot.logging.*" />
@@ -108,24 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SprintBootConfigTests.testAutoConfig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sp-config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.pislabs.springboot.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.pislabs.springboot.helloworld.SprintBootConfigTests" />
-      <option name="METHOD_NAME" value="testAutoConfig" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SprintBootConfigTests.testHelloService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="sp-config" />
+      <module name="config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pislabs.springboot.helloworld.*" />
@@ -140,15 +128,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="config" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="config" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="sp-config" />
+      <module name="config" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.helloworld.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ConfigQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sp-config-quick" />
+      <module name="config-quick" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.helloworld.ConfigQApplication" />
       <extension name="coverage">
         <pattern>
@@ -161,7 +162,7 @@
       </method>
     </configuration>
     <configuration name="LoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="sp-logging" />
+      <module name="logging" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.logging.LoggingApplication" />
       <extension name="coverage">
         <pattern>
@@ -173,21 +174,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WebRestfuleCrudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="web-restfule-crud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pislabs.springboot.webrestfulecrud.WebRestfuleCrudApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pislabs.springboot.webrestfulecrud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.LoggingApplicationTest.contextLoads" />
-      <item itemvalue="JUnit.SprintBootConfigTests.testAutoConfig" />
       <item itemvalue="JUnit.SprintBootConfigTests.testHelloService" />
       <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.LoggingApplication" />
+      <item itemvalue="Spring Boot.WebRestfuleCrudApplication" />
       <item itemvalue="Spring Boot.ConfigQApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WebRestfuleCrudApplication" />
         <item itemvalue="JUnit.LoggingApplicationTest.contextLoads" />
         <item itemvalue="Spring Boot.LoggingApplication" />
         <item itemvalue="Spring Boot.ConfigQApplication" />
         <item itemvalue="JUnit.SprintBootConfigTests.testHelloService" />
-        <item itemvalue="JUnit.SprintBootConfigTests.testAutoConfig" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +229,7 @@
       <workItem from="1749680156787" duration="2747000" />
       <workItem from="1749683169115" duration="607000" />
       <workItem from="1749710534938" duration="766000" />
-      <workItem from="1749764478521" duration="2686000" />
+      <workItem from="1749764478521" duration="4020000" />
     </task>
     <servers />
   </component>

@@ -3,9 +3,9 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
-        <entry key="sp-config" value="01-helloworld" />
-        <entry key="sp-config-quick" value="01-helloword-quick" />
-        <entry key="sp-logging" value="sp-log" />
+        <entry key="config" value="01-helloworld" />
+        <entry key="config-quick" value="01-helloword-quick" />
+        <entry key="logging" value="sp-log" />
       </map>
     </option>
   </component>
