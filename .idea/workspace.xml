@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/02-logging/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-logging/src/test/java/com/pislabs/springboot/logging/LoggingApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-config-quick/src/main/java/com/pislabs/springboot/helloworld/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-config-quick/src/main/java/com/pislabs/springboot/helloworld/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-logging/src/main/java/com/pislabs/springboot/logging/LoggingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/02-logging/src/main/java/com/pislabs/springboot/logging/LoggingApplication.java" afterDir="false" />
-    </list>
+    <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +215,7 @@
       <workItem from="1749680156787" duration="2747000" />
       <workItem from="1749683169115" duration="607000" />
       <workItem from="1749710534938" duration="766000" />
-      <workItem from="1749764478521" duration="853000" />
+      <workItem from="1749764478521" duration="2686000" />
     </task>
     <servers />
   </component>
