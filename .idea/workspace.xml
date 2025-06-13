@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/public/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/resources/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/templates/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/rayl/CodeRepos/pislabs/springBootDemos/sggSpringBootDemos",
+    "last_opened_file_path": "/Users/rayl/CodeRepos/pislabs/springBootDemos/sggSpringBootDemos/03-web-restfule-crud/src/main/resources/META-INFO",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,15 +77,17 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4827586",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "62029759da8006b2cccde69f59c290b9",
+    "spring.configuration.checksum": "423993aabf5cb89db9921440fa8580df",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/META-INFO" />
+      <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/resources" />
+      <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01-helloword-quick/src/main/resources" />
-      <recent name="$PROJECT_DIR$/01-helloworld/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -124,19 +131,6 @@
       <option name="MAIN_CLASS_NAME" value="com.pislabs.springboot.helloworld.SprintBootConfigTests" />
       <option name="METHOD_NAME" value="testHelloService" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="config" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="config" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -229,7 +223,8 @@
       <workItem from="1749680156787" duration="2747000" />
       <workItem from="1749683169115" duration="607000" />
       <workItem from="1749710534938" duration="766000" />
-      <workItem from="1749764478521" duration="4020000" />
+      <workItem from="1749764478521" duration="4056000" />
+      <workItem from="1749851445801" duration="2430000" />
     </task>
     <servers />
   </component>
