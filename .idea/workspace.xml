@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/public/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/resources/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/templates/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/config/MyMvcConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -56,38 +51,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/rayl/CodeRepos/pislabs/springBootDemos/sggSpringBootDemos/03-web-restfule-crud/src/main/resources/META-INFO",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4827586",
-    "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "423993aabf5cb89db9921440fa8580df",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/rayl/CodeRepos/pislabs/springBootDemos/sggSpringBootDemos/03-web-restfule-crud/src/main/resources/i18n&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4827586&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;423993aabf5cb89db9921440fa8580df&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/i18n" />
       <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/META-INFO" />
       <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/resources" />
       <recent name="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/public" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/01-helloword-quick/src/main/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -224,12 +220,41 @@
       <workItem from="1749683169115" duration="607000" />
       <workItem from="1749710534938" duration="766000" />
       <workItem from="1749764478521" duration="4056000" />
-      <workItem from="1749851445801" duration="2430000" />
+      <workItem from="1749851445801" duration="5116000" />
+      <workItem from="1749941778828" duration="4734000" />
+      <workItem from="1750110321178" duration="4644000" />
+      <workItem from="1750286853252" duration="865000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>469</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>392</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>393</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
