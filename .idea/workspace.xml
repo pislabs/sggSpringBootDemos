@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aed0c9dc-1791-4101-9f6c-4c281a957429" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/public/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/resources/index3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/templates/success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/WebRestfuleCrudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/WebRestfuleCrudApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,12 +220,53 @@
       <workItem from="1749683169115" duration="607000" />
       <workItem from="1749710534938" duration="766000" />
       <workItem from="1749764478521" duration="4056000" />
-      <workItem from="1749851445801" duration="2430000" />
+      <workItem from="1749851445801" duration="4470000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>469</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/03-web-restfule-crud/src/main/java/com/pislabs/springboot/webrestfulecrud/controller/HelloController.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>392</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>393</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java</url>
+          <line>909</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE-sources.jar!/org/springframework/web/servlet/view/InternalResourceViewResolver.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.3.23/spring-webmvc-5.3.23.jar!/org/springframework/web/servlet/DispatcherServlet.class</url>
+          <line>506</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
